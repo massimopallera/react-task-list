@@ -25,7 +25,7 @@ export default function Main(){
               return (
                 <li key={index}>
                 <div>
-                  <div>
+                  <div className='title'>
                     <strong>{task.title}</strong> 
                     <div className='state'>{task.state}</div>
                   </div>
@@ -52,7 +52,7 @@ export default function Main(){
               return (
               <li key={index}>
                 <div>
-                  <div>
+                  <div className='title'>
                     <strong>{task.title}</strong> 
                     <div className='state'>{task.state}</div>
                   </div>
