@@ -40,7 +40,7 @@ export default function Main(){
 
         </div>
 
-        <br />
+        <hr />
 
         {/* Completed Tasks */}
         <div>
